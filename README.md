@@ -36,13 +36,19 @@ It is intended for use with a within-subject design, comparing performance for d
 - They will then complete 2 counter-balanced main trial blocks with 20 trials each (16 go, 4 no-go)
 
 ## Parameters 
-ITI_MIN = 0.5 # Shortest ITI between each trial
-ITI_MAX = 1.0 # Longest ITI between each trial 
-RESP_WINDOW = 1.5 # How long the participant has to respond for each face
-FEEDBACK_DUR = 1.0 # How long 'Correct' and 'Incorrect' stays on when feedback is on
-RESP_KEY = 'space' # The key corresponding to pressed
-CONTINUE_KEY = 'return' # The key corresponding to advance
-QUIT_KEY = 'escape' # The key corresponding to quit
+ITI_MIN = 0.5 
+
+ITI_MAX = 1.0 
+
+RESP_WINDOW = 1.5
+
+FEEDBACK_DUR = 1.0 
+
+RESP_KEY = 'space' 
+
+CONTINUE_KEY = 'return' 
+
+QUIT_KEY = 'escape' 
 
 ## Parameters Customization 
 
